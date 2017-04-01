@@ -1,0 +1,763 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bootstrap@4.0.0-alpha.6' ]
+2 info using npm@3.10.10
+3 info using node@v7.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData bootstrap@4.0.0-alpha.6
+8 silly fetchNamedPackageData bootstrap
+9 silly mapToRegistry name bootstrap
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'bootstrap',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'bootstrap',
+12 silly mapToRegistry   name: 'bootstrap',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+14 verbose request uri https://registry.npmjs.org/bootstrap
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 6:02:00 PM
+17 verbose request id 0d7841993aba3782
+18 verbose etag W/"58d0a7eb-c63a"
+19 verbose lastModified Tue, 21 Mar 2017 04:11:23 GMT
+20 http request GET https://registry.npmjs.org/bootstrap
+21 http 304 https://registry.npmjs.org/bootstrap
+22 verbose headers { date: 'Sat, 01 Apr 2017 22:02:07 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"58d0a7eb-c63a"',
+22 verbose headers   age: '17',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-atl6224-ATL',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '2',
+22 verbose headers   'x-timer': 'S1491084127.360269,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sat, 01 Apr 2017 22:02:07 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"58d0a7eb-c63a"',
+23 silly get     age: '17',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-atl6224-ATL',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '2',
+23 silly get     'x-timer': 'S1491084127.360269,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/bootstrap from cache
+25 verbose get saving bootstrap to C:\Users\soumb\AppData\Roaming\npm-cache\registry.npmjs.org\bootstrap\.cache.json
+26 verbose correctMkdir C:\Users\soumb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule bootstrap@4.0.0-alpha.6 checking installable status
+40 silly cache add args [ 'bootstrap@4.0.0-alpha.6', null ]
+41 verbose cache add spec bootstrap@4.0.0-alpha.6
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'bootstrap@4.0.0-alpha.6',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'bootstrap',
+42 silly cache add   name: 'bootstrap',
+42 silly cache add   rawSpec: '4.0.0-alpha.6',
+42 silly cache add   spec: '4.0.0-alpha.6',
+42 silly cache add   type: 'version' }
+43 silly addNamed bootstrap@4.0.0-alpha.6
+44 verbose addNamed "4.0.0-alpha.6" is a plain semver version for bootstrap
+45 silly mapToRegistry name bootstrap
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'bootstrap',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'bootstrap',
+48 silly mapToRegistry   name: 'bootstrap',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+50 verbose addNameVersion registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+51 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+52 silly cache afterAdd bootstrap@4.0.0-alpha.6
+53 verbose afterAdd C:\Users\soumb\AppData\Roaming\npm-cache\bootstrap\4.0.0-alpha.6\package\package.json not in flight; writing
+54 verbose correctMkdir C:\Users\soumb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+55 verbose afterAdd C:\Users\soumb\AppData\Roaming\npm-cache\bootstrap\4.0.0-alpha.6\package\package.json written
+56 silly fetchNamedPackageData jquery
+57 silly mapToRegistry name jquery
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry data Result {
+60 silly mapToRegistry   raw: 'jquery',
+60 silly mapToRegistry   scope: null,
+60 silly mapToRegistry   escapedName: 'jquery',
+60 silly mapToRegistry   name: 'jquery',
+60 silly mapToRegistry   rawSpec: '',
+60 silly mapToRegistry   spec: 'latest',
+60 silly mapToRegistry   type: 'tag' }
+61 silly mapToRegistry uri https://registry.npmjs.org/jquery
+62 silly fetchNamedPackageData tether
+63 silly mapToRegistry name tether
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry data Result {
+66 silly mapToRegistry   raw: 'tether',
+66 silly mapToRegistry   scope: null,
+66 silly mapToRegistry   escapedName: 'tether',
+66 silly mapToRegistry   name: 'tether',
+66 silly mapToRegistry   rawSpec: '',
+66 silly mapToRegistry   spec: 'latest',
+66 silly mapToRegistry   type: 'tag' }
+67 silly mapToRegistry uri https://registry.npmjs.org/tether
+68 verbose request uri https://registry.npmjs.org/jquery
+69 verbose request no auth needed
+70 info attempt registry request try #1 at 6:02:06 PM
+71 verbose etag W/"58dbe630-15ed8"
+72 verbose lastModified Wed, 29 Mar 2017 16:52:00 GMT
+73 http request GET https://registry.npmjs.org/jquery
+74 verbose request uri https://registry.npmjs.org/tether
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 6:02:06 PM
+77 verbose etag W/"58dd3a71-a830"
+78 verbose lastModified Thu, 30 Mar 2017 17:03:45 GMT
+79 http request GET https://registry.npmjs.org/tether
+80 http 304 https://registry.npmjs.org/jquery
+81 verbose headers { date: 'Sat, 01 Apr 2017 22:02:09 GMT',
+81 verbose headers   via: '1.1 varnish',
+81 verbose headers   'cache-control': 'max-age=300',
+81 verbose headers   etag: 'W/"58dbe630-15ed8"',
+81 verbose headers   age: '231',
+81 verbose headers   connection: 'keep-alive',
+81 verbose headers   'x-served-by': 'cache-atl6224-ATL',
+81 verbose headers   'x-cache': 'HIT',
+81 verbose headers   'x-cache-hits': '2',
+81 verbose headers   'x-timer': 'S1491084129.450178,VS0,VE0',
+81 verbose headers   vary: 'Accept-Encoding' }
+82 silly get cb [ 304,
+82 silly get   { date: 'Sat, 01 Apr 2017 22:02:09 GMT',
+82 silly get     via: '1.1 varnish',
+82 silly get     'cache-control': 'max-age=300',
+82 silly get     etag: 'W/"58dbe630-15ed8"',
+82 silly get     age: '231',
+82 silly get     connection: 'keep-alive',
+82 silly get     'x-served-by': 'cache-atl6224-ATL',
+82 silly get     'x-cache': 'HIT',
+82 silly get     'x-cache-hits': '2',
+82 silly get     'x-timer': 'S1491084129.450178,VS0,VE0',
+82 silly get     vary: 'Accept-Encoding' } ]
+83 verbose etag https://registry.npmjs.org/jquery from cache
+84 verbose get saving jquery to C:\Users\soumb\AppData\Roaming\npm-cache\registry.npmjs.org\jquery\.cache.json
+85 verbose correctMkdir C:\Users\soumb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+86 silly resolveWithNewModule jquery@3.2.1 checking installable status
+87 silly cache add args [ 'jquery@>=1.9.1', null ]
+88 verbose cache add spec jquery@>=1.9.1
+89 silly cache add parsed spec Result {
+89 silly cache add   raw: 'jquery@>=1.9.1',
+89 silly cache add   scope: null,
+89 silly cache add   escapedName: 'jquery',
+89 silly cache add   name: 'jquery',
+89 silly cache add   rawSpec: '>=1.9.1',
+89 silly cache add   spec: '>=1.9.1',
+89 silly cache add   type: 'range' }
+90 silly addNamed jquery@>=1.9.1
+91 verbose addNamed ">=1.9.1" is a valid semver range for jquery
+92 silly addNameRange { name: 'jquery', range: '>=1.9.1', hasData: false }
+93 silly mapToRegistry name jquery
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: 'jquery',
+96 silly mapToRegistry   scope: null,
+96 silly mapToRegistry   escapedName: 'jquery',
+96 silly mapToRegistry   name: 'jquery',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri https://registry.npmjs.org/jquery
+98 verbose addNameRange registry:https://registry.npmjs.org/jquery not in flight; fetching
+99 verbose get https://registry.npmjs.org/jquery not expired, no request
+100 silly addNameRange number 2 { name: 'jquery', range: '>=1.9.1', hasData: true }
+101 silly addNameRange versions [ 'jquery',
+101 silly addNameRange   [ '1.5.1',
+101 silly addNameRange     '1.6.2',
+101 silly addNameRange     '1.6.3',
+101 silly addNameRange     '1.7.2',
+101 silly addNameRange     '1.7.3',
+101 silly addNameRange     '1.8.2',
+101 silly addNameRange     '1.8.3',
+101 silly addNameRange     '2.1.0-beta2',
+101 silly addNameRange     '2.1.0-beta3',
+101 silly addNameRange     '1.11.0-beta3',
+101 silly addNameRange     '1.11.0-rc1',
+101 silly addNameRange     '2.1.0-rc1',
+101 silly addNameRange     '1.11.0',
+101 silly addNameRange     '2.1.0',
+101 silly addNameRange     '2.1.1-beta1',
+101 silly addNameRange     '1.11.1-beta1',
+101 silly addNameRange     '2.1.1-rc1',
+101 silly addNameRange     '1.11.1-rc1',
+101 silly addNameRange     '2.1.1-rc2',
+101 silly addNameRange     '1.11.1-rc2',
+101 silly addNameRange     '2.1.1',
+101 silly addNameRange     '1.11.1',
+101 silly addNameRange     '1.9.1',
+101 silly addNameRange     '2.1.2',
+101 silly addNameRange     '1.11.2',
+101 silly addNameRange     '2.1.3',
+101 silly addNameRange     '2.1.4',
+101 silly addNameRange     '1.11.3',
+101 silly addNameRange     '3.0.0-alpha1',
+101 silly addNameRange     '1.12.0',
+101 silly addNameRange     '2.2.0',
+101 silly addNameRange     '3.0.0-beta1',
+101 silly addNameRange     '1.12.1',
+101 silly addNameRange     '2.2.1',
+101 silly addNameRange     '1.12.2',
+101 silly addNameRange     '2.2.2',
+101 silly addNameRange     '1.12.3',
+101 silly addNameRange     '2.2.3',
+101 silly addNameRange     '1.12.4',
+101 silly addNameRange     '2.2.4',
+101 silly addNameRange     '3.0.0-rc1',
+101 silly addNameRange     '3.0.0',
+101 silly addNameRange     '3.1.0',
+101 silly addNameRange     '3.1.1',
+101 silly addNameRange     '3.2.0',
+101 silly addNameRange     '3.2.1' ] ]
+102 silly addNamed jquery@3.2.1
+103 verbose addNamed "3.2.1" is a plain semver version for jquery
+104 http 304 https://registry.npmjs.org/tether
+105 verbose headers { date: 'Sat, 01 Apr 2017 22:02:09 GMT',
+105 verbose headers   via: '1.1 varnish',
+105 verbose headers   'cache-control': 'max-age=300',
+105 verbose headers   etag: 'W/"58dd3a71-a830"',
+105 verbose headers   age: '0',
+105 verbose headers   connection: 'keep-alive',
+105 verbose headers   'x-served-by': 'cache-atl6236-ATL',
+105 verbose headers   'x-cache': 'HIT',
+105 verbose headers   'x-cache-hits': '1',
+105 verbose headers   'x-timer': 'S1491084129.532503,VS0,VE82',
+105 verbose headers   vary: 'Accept-Encoding' }
+106 silly get cb [ 304,
+106 silly get   { date: 'Sat, 01 Apr 2017 22:02:09 GMT',
+106 silly get     via: '1.1 varnish',
+106 silly get     'cache-control': 'max-age=300',
+106 silly get     etag: 'W/"58dd3a71-a830"',
+106 silly get     age: '0',
+106 silly get     connection: 'keep-alive',
+106 silly get     'x-served-by': 'cache-atl6236-ATL',
+106 silly get     'x-cache': 'HIT',
+106 silly get     'x-cache-hits': '1',
+106 silly get     'x-timer': 'S1491084129.532503,VS0,VE82',
+106 silly get     vary: 'Accept-Encoding' } ]
+107 verbose etag https://registry.npmjs.org/tether from cache
+108 verbose get saving tether to C:\Users\soumb\AppData\Roaming\npm-cache\registry.npmjs.org\tether\.cache.json
+109 verbose correctMkdir C:\Users\soumb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+110 silly resolveWithNewModule tether@1.4.0 checking installable status
+111 silly cache add args [ 'tether@^1.4.0', null ]
+112 verbose cache add spec tether@^1.4.0
+113 silly cache add parsed spec Result {
+113 silly cache add   raw: 'tether@^1.4.0',
+113 silly cache add   scope: null,
+113 silly cache add   escapedName: 'tether',
+113 silly cache add   name: 'tether',
+113 silly cache add   rawSpec: '^1.4.0',
+113 silly cache add   spec: '>=1.4.0 <2.0.0',
+113 silly cache add   type: 'range' }
+114 silly addNamed tether@>=1.4.0 <2.0.0
+115 verbose addNamed ">=1.4.0 <2.0.0" is a valid semver range for tether
+116 silly addNameRange { name: 'tether', range: '>=1.4.0 <2.0.0', hasData: false }
+117 silly mapToRegistry name tether
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry data Result {
+120 silly mapToRegistry   raw: 'tether',
+120 silly mapToRegistry   scope: null,
+120 silly mapToRegistry   escapedName: 'tether',
+120 silly mapToRegistry   name: 'tether',
+120 silly mapToRegistry   rawSpec: '',
+120 silly mapToRegistry   spec: 'latest',
+120 silly mapToRegistry   type: 'tag' }
+121 silly mapToRegistry uri https://registry.npmjs.org/tether
+122 verbose addNameRange registry:https://registry.npmjs.org/tether not in flight; fetching
+123 verbose get https://registry.npmjs.org/tether not expired, no request
+124 silly addNameRange number 2 { name: 'tether', range: '>=1.4.0 <2.0.0', hasData: true }
+125 silly addNameRange versions [ 'tether',
+125 silly addNameRange   [ '0.5.2',
+125 silly addNameRange     '0.6.5',
+125 silly addNameRange     '0.7.1',
+125 silly addNameRange     '0.7.2',
+125 silly addNameRange     '1.0.0',
+125 silly addNameRange     '1.0.1',
+125 silly addNameRange     '1.0.2',
+125 silly addNameRange     '1.0.3',
+125 silly addNameRange     '1.1.0',
+125 silly addNameRange     '1.1.1',
+125 silly addNameRange     '1.2.0',
+125 silly addNameRange     '1.2.2',
+125 silly addNameRange     '1.2.3',
+125 silly addNameRange     '1.3.0',
+125 silly addNameRange     '1.3.1',
+125 silly addNameRange     '1.2.4',
+125 silly addNameRange     '1.3.2',
+125 silly addNameRange     '1.3.3',
+125 silly addNameRange     '1.3.4',
+125 silly addNameRange     '1.3.5',
+125 silly addNameRange     '1.3.6',
+125 silly addNameRange     '1.3.7',
+125 silly addNameRange     '1.3.8',
+125 silly addNameRange     '1.3.9',
+125 silly addNameRange     '1.4.0' ] ]
+126 silly addNamed tether@1.4.0
+127 verbose addNamed "1.4.0" is a plain semver version for tether
+128 silly cache afterAdd jquery@3.2.1
+129 verbose afterAdd C:\Users\soumb\AppData\Roaming\npm-cache\jquery\3.2.1\package\package.json not in flight; writing
+130 verbose correctMkdir C:\Users\soumb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+131 verbose afterAdd C:\Users\soumb\AppData\Roaming\npm-cache\jquery\3.2.1\package\package.json written
+132 silly cache afterAdd tether@1.4.0
+133 verbose afterAdd C:\Users\soumb\AppData\Roaming\npm-cache\tether\1.4.0\package\package.json not in flight; writing
+134 verbose correctMkdir C:\Users\soumb\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+135 verbose afterAdd C:\Users\soumb\AppData\Roaming\npm-cache\tether\1.4.0\package\package.json written
+136 silly loadAllDepsIntoIdealTree Finishing
+137 silly loadIdealTree Finishing
+138 silly currentTree playaa@0.0.1
+138 silly currentTree +-- ap@0.2.0
+138 silly currentTree +-- bootstrap@4.0.0-alpha.6
+138 silly currentTree +-- buffer-writer@1.0.1
+138 silly currentTree +-- generic-pool@2.4.2
+138 silly currentTree +-- jquery@3.2.1
+138 silly currentTree +-- object-assign@4.1.0
+138 silly currentTree +-- packet-reader@0.2.0
+138 silly currentTree +-- pg-connection-string@0.1.3
+138 silly currentTree +-- pg-pool@1.6.0
+138 silly currentTree +-- pg-types@1.11.0
+138 silly currentTree +-- pg@6.1.5
+138 silly currentTree +-- pgpass@1.0.1
+138 silly currentTree +-- postgres-array@1.0.2
+138 silly currentTree +-- postgres-bytea@1.0.0
+138 silly currentTree +-- postgres-date@1.0.3
+138 silly currentTree +-- postgres-interval@1.0.2
+138 silly currentTree +-- semver@4.3.2
+138 silly currentTree +-- split@1.0.0
+138 silly currentTree +-- tether@1.4.0
+138 silly currentTree +-- through@2.3.8
+138 silly currentTree `-- xtend@4.0.1
+139 silly idealTree playaa@0.0.1
+139 silly idealTree +-- ap@0.2.0
+139 silly idealTree +-- bootstrap@4.0.0-alpha.6
+139 silly idealTree +-- buffer-writer@1.0.1
+139 silly idealTree +-- generic-pool@2.4.2
+139 silly idealTree +-- jquery@3.2.1
+139 silly idealTree +-- object-assign@4.1.0
+139 silly idealTree +-- packet-reader@0.2.0
+139 silly idealTree +-- pg-connection-string@0.1.3
+139 silly idealTree +-- pg-pool@1.6.0
+139 silly idealTree +-- pg-types@1.11.0
+139 silly idealTree +-- pg@6.1.5
+139 silly idealTree +-- pgpass@1.0.1
+139 silly idealTree +-- postgres-array@1.0.2
+139 silly idealTree +-- postgres-bytea@1.0.0
+139 silly idealTree +-- postgres-date@1.0.3
+139 silly idealTree +-- postgres-interval@1.0.2
+139 silly idealTree +-- semver@4.3.2
+139 silly idealTree +-- split@1.0.0
+139 silly idealTree +-- tether@1.4.0
+139 silly idealTree +-- through@2.3.8
+139 silly idealTree `-- xtend@4.0.1
+140 silly generateActionsToTake Starting
+141 silly install generateActionsToTake
+142 silly generateActionsToTake Finishing
+143 silly diffTrees action count 1
+144 silly diffTrees update bootstrap@4.0.0-alpha.6
+145 silly decomposeActions action count 9
+146 silly decomposeActions remove bootstrap@4.0.0-alpha.6
+147 silly decomposeActions fetch bootstrap@4.0.0-alpha.6
+148 silly decomposeActions extract bootstrap@4.0.0-alpha.6
+149 silly decomposeActions test bootstrap@4.0.0-alpha.6
+150 silly decomposeActions preinstall bootstrap@4.0.0-alpha.6
+151 silly decomposeActions build bootstrap@4.0.0-alpha.6
+152 silly decomposeActions install bootstrap@4.0.0-alpha.6
+153 silly decomposeActions postinstall bootstrap@4.0.0-alpha.6
+154 silly decomposeActions finalize bootstrap@4.0.0-alpha.6
+155 silly runTopLevelLifecycles Starting
+156 silly executeActions Starting
+157 silly install executeActions
+158 silly doSerial global-install 0
+159 silly doParallel fetch 1
+160 verbose correctMkdir C:\Users\soumb\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+161 verbose lock using C:\Users\soumb\AppData\Roaming\npm-cache\_locks\staging-25f4e77628d1c7a4.lock for C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging
+162 silly doParallel extract 1
+163 silly extract bootstrap@4.0.0-alpha.6
+164 verbose unbuild node_modules\.staging\bootstrap-4645f064
+165 silly gentlyRm C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064 is being purged from base C:\Users\soumb\Documents\GitHub\Playaa
+166 verbose gentlyRm don't care about contents; nuking C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064
+167 verbose tar unpack C:\Users\soumb\AppData\Roaming\npm-cache\bootstrap\4.0.0-alpha.6\package.tgz
+168 verbose tar unpacking to C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064
+169 silly gentlyRm C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064 is being purged
+170 verbose gentlyRm don't care about contents; nuking C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064
+171 silly gunzTarPerm modes [ '777', '666' ]
+172 silly gunzTarPerm extractEntry package.json
+173 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+174 silly gunzTarPerm extractEntry README.md
+175 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+176 silly gunzTarPerm extractEntry LICENSE
+177 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+178 silly gunzTarPerm extractEntry Gruntfile.js
+179 silly gunzTarPerm modified mode [ 'Gruntfile.js', 420, 438 ]
+180 silly gunzTarPerm extractEntry CHANGELOG.md
+181 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+182 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.min.css
+183 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-reboot.min.css', 420, 438 ]
+184 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.css
+185 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-grid.css', 420, 438 ]
+186 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.min.css
+187 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-grid.min.css', 420, 438 ]
+188 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.min.css.map
+189 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-grid.min.css.map', 420, 438 ]
+190 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.css
+191 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-reboot.css', 420, 438 ]
+192 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.css.map
+193 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-reboot.css.map', 420, 438 ]
+194 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.css.map
+195 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-grid.css.map', 420, 438 ]
+196 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.min.css.map
+197 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-reboot.min.css.map', 420, 438 ]
+198 silly gunzTarPerm extractEntry dist/css/bootstrap.css
+199 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.css', 420, 438 ]
+200 silly gunzTarPerm extractEntry dist/css/bootstrap.css.map
+201 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.css.map', 420, 438 ]
+202 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css
+203 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.min.css', 420, 438 ]
+204 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css.map
+205 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.min.css.map', 420, 438 ]
+206 silly gunzTarPerm extractEntry dist/js/bootstrap.js
+207 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.js', 420, 438 ]
+208 silly gunzTarPerm extractEntry dist/js/bootstrap.min.js
+209 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.min.js', 420, 438 ]
+210 silly gunzTarPerm extractEntry grunt/change-version.js
+211 silly gunzTarPerm modified mode [ 'grunt/change-version.js', 493, 511 ]
+212 silly gunzTarPerm extractEntry grunt/postcss.js
+213 silly gunzTarPerm modified mode [ 'grunt/postcss.js', 420, 438 ]
+214 silly gunzTarPerm extractEntry grunt/configBridge.json
+215 silly gunzTarPerm modified mode [ 'grunt/configBridge.json', 420, 438 ]
+216 silly gunzTarPerm extractEntry grunt/gcp-key.json.enc
+217 silly gunzTarPerm modified mode [ 'grunt/gcp-key.json.enc', 420, 438 ]
+218 silly gunzTarPerm extractEntry grunt/npm-shrinkwrap.json
+219 silly gunzTarPerm modified mode [ 'grunt/npm-shrinkwrap.json', 420, 438 ]
+220 silly gunzTarPerm extractEntry grunt/sauce_browsers.yml
+221 silly gunzTarPerm modified mode [ 'grunt/sauce_browsers.yml', 420, 438 ]
+222 silly gunzTarPerm extractEntry grunt/upload-preview.sh
+223 silly gunzTarPerm modified mode [ 'grunt/upload-preview.sh', 493, 511 ]
+224 silly gunzTarPerm extractEntry js/dist/alert.js
+225 silly gunzTarPerm modified mode [ 'js/dist/alert.js', 420, 438 ]
+226 silly gunzTarPerm extractEntry js/dist/carousel.js
+227 silly gunzTarPerm modified mode [ 'js/dist/carousel.js', 420, 438 ]
+228 silly gunzTarPerm extractEntry js/dist/collapse.js
+229 silly gunzTarPerm modified mode [ 'js/dist/collapse.js', 420, 438 ]
+230 silly gunzTarPerm extractEntry js/dist/dropdown.js
+231 silly gunzTarPerm modified mode [ 'js/dist/dropdown.js', 420, 438 ]
+232 silly gunzTarPerm extractEntry js/dist/button.js
+233 silly gunzTarPerm modified mode [ 'js/dist/button.js', 420, 438 ]
+234 silly gunzTarPerm extractEntry js/dist/popover.js
+235 silly gunzTarPerm modified mode [ 'js/dist/popover.js', 420, 438 ]
+236 silly gunzTarPerm extractEntry js/dist/scrollspy.js
+237 silly gunzTarPerm modified mode [ 'js/dist/scrollspy.js', 420, 438 ]
+238 silly gunzTarPerm extractEntry js/dist/tab.js
+239 silly gunzTarPerm modified mode [ 'js/dist/tab.js', 420, 438 ]
+240 silly gunzTarPerm extractEntry js/dist/tooltip.js
+241 silly gunzTarPerm modified mode [ 'js/dist/tooltip.js', 420, 438 ]
+242 silly gunzTarPerm extractEntry js/dist/util.js
+243 silly gunzTarPerm modified mode [ 'js/dist/util.js', 420, 438 ]
+244 silly gunzTarPerm extractEntry js/dist/modal.js
+245 silly gunzTarPerm modified mode [ 'js/dist/modal.js', 420, 438 ]
+246 silly gunzTarPerm extractEntry js/src/alert.js
+247 silly gunzTarPerm modified mode [ 'js/src/alert.js', 420, 438 ]
+248 silly gunzTarPerm extractEntry js/src/carousel.js
+249 silly gunzTarPerm modified mode [ 'js/src/carousel.js', 420, 438 ]
+250 silly gunzTarPerm extractEntry js/src/collapse.js
+251 silly gunzTarPerm modified mode [ 'js/src/collapse.js', 420, 438 ]
+252 silly gunzTarPerm extractEntry js/src/dropdown.js
+253 silly gunzTarPerm modified mode [ 'js/src/dropdown.js', 420, 438 ]
+254 silly gunzTarPerm extractEntry js/src/button.js
+255 silly gunzTarPerm modified mode [ 'js/src/button.js', 420, 438 ]
+256 silly gunzTarPerm extractEntry js/src/popover.js
+257 silly gunzTarPerm modified mode [ 'js/src/popover.js', 420, 438 ]
+258 silly gunzTarPerm extractEntry js/src/scrollspy.js
+259 silly gunzTarPerm modified mode [ 'js/src/scrollspy.js', 420, 438 ]
+260 silly gunzTarPerm extractEntry js/src/tab.js
+261 silly gunzTarPerm modified mode [ 'js/src/tab.js', 420, 438 ]
+262 silly gunzTarPerm extractEntry js/src/tooltip.js
+263 silly gunzTarPerm modified mode [ 'js/src/tooltip.js', 420, 438 ]
+264 silly gunzTarPerm extractEntry js/src/util.js
+265 silly gunzTarPerm modified mode [ 'js/src/util.js', 420, 438 ]
+266 silly gunzTarPerm extractEntry js/src/modal.js
+267 silly gunzTarPerm modified mode [ 'js/src/modal.js', 420, 438 ]
+268 silly gunzTarPerm extractEntry js/tests/README.md
+269 silly gunzTarPerm modified mode [ 'js/tests/README.md', 420, 438 ]
+270 silly gunzTarPerm extractEntry js/tests/unit/alert.js
+271 silly gunzTarPerm modified mode [ 'js/tests/unit/alert.js', 420, 438 ]
+272 silly gunzTarPerm extractEntry js/tests/unit/carousel.js
+273 silly gunzTarPerm modified mode [ 'js/tests/unit/carousel.js', 420, 438 ]
+274 silly gunzTarPerm extractEntry js/tests/unit/collapse.js
+275 silly gunzTarPerm modified mode [ 'js/tests/unit/collapse.js', 420, 438 ]
+276 silly gunzTarPerm extractEntry js/tests/unit/dropdown.js
+277 silly gunzTarPerm modified mode [ 'js/tests/unit/dropdown.js', 420, 438 ]
+278 silly gunzTarPerm extractEntry js/tests/unit/button.js
+279 silly gunzTarPerm modified mode [ 'js/tests/unit/button.js', 420, 438 ]
+280 silly gunzTarPerm extractEntry js/tests/unit/phantom.js
+281 silly gunzTarPerm modified mode [ 'js/tests/unit/phantom.js', 420, 438 ]
+282 silly gunzTarPerm extractEntry js/tests/unit/popover.js
+283 silly gunzTarPerm modified mode [ 'js/tests/unit/popover.js', 420, 438 ]
+284 silly gunzTarPerm extractEntry js/tests/unit/scrollspy.js
+285 silly gunzTarPerm modified mode [ 'js/tests/unit/scrollspy.js', 420, 438 ]
+286 silly gunzTarPerm extractEntry js/tests/unit/tab.js
+287 silly gunzTarPerm modified mode [ 'js/tests/unit/tab.js', 420, 438 ]
+288 silly gunzTarPerm extractEntry js/tests/unit/tooltip.js
+289 silly gunzTarPerm modified mode [ 'js/tests/unit/tooltip.js', 420, 438 ]
+290 silly gunzTarPerm extractEntry js/tests/unit/modal.js
+291 silly gunzTarPerm modified mode [ 'js/tests/unit/modal.js', 420, 438 ]
+292 silly gunzTarPerm extractEntry js/tests/vendor/qunit.js
+293 silly gunzTarPerm modified mode [ 'js/tests/vendor/qunit.js', 420, 438 ]
+294 silly gunzTarPerm extractEntry scss/_modal.scss
+295 silly gunzTarPerm modified mode [ 'scss/_modal.scss', 420, 438 ]
+296 silly gunzTarPerm extractEntry scss/_badge.scss
+297 silly gunzTarPerm modified mode [ 'scss/_badge.scss', 420, 438 ]
+298 silly gunzTarPerm extractEntry scss/_breadcrumb.scss
+299 silly gunzTarPerm modified mode [ 'scss/_breadcrumb.scss', 420, 438 ]
+300 silly gunzTarPerm extractEntry scss/_button-group.scss
+301 silly gunzTarPerm modified mode [ 'scss/_button-group.scss', 420, 438 ]
+302 silly gunzTarPerm extractEntry scss/_buttons.scss
+303 silly gunzTarPerm modified mode [ 'scss/_buttons.scss', 420, 438 ]
+304 silly gunzTarPerm extractEntry scss/_card.scss
+305 silly gunzTarPerm modified mode [ 'scss/_card.scss', 420, 438 ]
+306 silly gunzTarPerm extractEntry scss/_carousel.scss
+307 silly gunzTarPerm modified mode [ 'scss/_carousel.scss', 420, 438 ]
+308 silly gunzTarPerm extractEntry scss/_close.scss
+309 silly gunzTarPerm modified mode [ 'scss/_close.scss', 420, 438 ]
+310 silly gunzTarPerm extractEntry scss/_code.scss
+311 silly gunzTarPerm modified mode [ 'scss/_code.scss', 420, 438 ]
+312 silly gunzTarPerm extractEntry scss/_custom-forms.scss
+313 silly gunzTarPerm modified mode [ 'scss/_custom-forms.scss', 420, 438 ]
+314 silly gunzTarPerm extractEntry scss/_custom.scss
+315 silly gunzTarPerm modified mode [ 'scss/_custom.scss', 420, 438 ]
+316 silly gunzTarPerm extractEntry scss/_dropdown.scss
+317 silly gunzTarPerm modified mode [ 'scss/_dropdown.scss', 420, 438 ]
+318 silly gunzTarPerm extractEntry scss/_forms.scss
+319 silly gunzTarPerm modified mode [ 'scss/_forms.scss', 420, 438 ]
+320 silly gunzTarPerm extractEntry scss/_grid.scss
+321 silly gunzTarPerm modified mode [ 'scss/_grid.scss', 420, 438 ]
+322 silly gunzTarPerm extractEntry scss/_images.scss
+323 silly gunzTarPerm modified mode [ 'scss/_images.scss', 420, 438 ]
+324 silly gunzTarPerm extractEntry scss/_input-group.scss
+325 silly gunzTarPerm modified mode [ 'scss/_input-group.scss', 420, 438 ]
+326 silly gunzTarPerm extractEntry scss/_jumbotron.scss
+327 silly gunzTarPerm modified mode [ 'scss/_jumbotron.scss', 420, 438 ]
+328 silly gunzTarPerm extractEntry scss/_list-group.scss
+329 silly gunzTarPerm modified mode [ 'scss/_list-group.scss', 420, 438 ]
+330 silly gunzTarPerm extractEntry scss/_media.scss
+331 silly gunzTarPerm modified mode [ 'scss/_media.scss', 420, 438 ]
+332 silly gunzTarPerm extractEntry scss/_mixins.scss
+333 silly gunzTarPerm modified mode [ 'scss/_mixins.scss', 420, 438 ]
+334 silly gunzTarPerm extractEntry scss/_alert.scss
+335 silly gunzTarPerm modified mode [ 'scss/_alert.scss', 420, 438 ]
+336 silly gunzTarPerm extractEntry scss/_nav.scss
+337 silly gunzTarPerm modified mode [ 'scss/_nav.scss', 420, 438 ]
+338 silly gunzTarPerm extractEntry scss/_navbar.scss
+339 silly gunzTarPerm modified mode [ 'scss/_navbar.scss', 420, 438 ]
+340 silly gunzTarPerm extractEntry scss/_normalize.scss
+341 silly gunzTarPerm modified mode [ 'scss/_normalize.scss', 420, 438 ]
+342 silly gunzTarPerm extractEntry scss/_pagination.scss
+343 silly gunzTarPerm modified mode [ 'scss/_pagination.scss', 420, 438 ]
+344 silly gunzTarPerm extractEntry scss/_popover.scss
+345 silly gunzTarPerm modified mode [ 'scss/_popover.scss', 420, 438 ]
+346 silly gunzTarPerm extractEntry scss/_print.scss
+347 silly gunzTarPerm modified mode [ 'scss/_print.scss', 420, 438 ]
+348 silly gunzTarPerm extractEntry scss/_progress.scss
+349 silly gunzTarPerm modified mode [ 'scss/_progress.scss', 420, 438 ]
+350 silly gunzTarPerm extractEntry scss/_reboot.scss
+351 silly gunzTarPerm modified mode [ 'scss/_reboot.scss', 420, 438 ]
+352 silly gunzTarPerm extractEntry scss/_responsive-embed.scss
+353 silly gunzTarPerm modified mode [ 'scss/_responsive-embed.scss', 420, 438 ]
+354 silly gunzTarPerm extractEntry scss/_tables.scss
+355 silly gunzTarPerm modified mode [ 'scss/_tables.scss', 420, 438 ]
+356 silly gunzTarPerm extractEntry scss/_tooltip.scss
+357 silly gunzTarPerm modified mode [ 'scss/_tooltip.scss', 420, 438 ]
+358 silly gunzTarPerm extractEntry scss/_transitions.scss
+359 silly gunzTarPerm modified mode [ 'scss/_transitions.scss', 420, 438 ]
+360 silly gunzTarPerm extractEntry scss/_type.scss
+361 silly gunzTarPerm modified mode [ 'scss/_type.scss', 420, 438 ]
+362 silly gunzTarPerm extractEntry scss/_utilities.scss
+363 silly gunzTarPerm modified mode [ 'scss/_utilities.scss', 420, 438 ]
+364 silly gunzTarPerm extractEntry scss/_variables.scss
+365 silly gunzTarPerm modified mode [ 'scss/_variables.scss', 420, 438 ]
+366 silly gunzTarPerm extractEntry scss/bootstrap-grid.scss
+367 silly gunzTarPerm modified mode [ 'scss/bootstrap-grid.scss', 420, 438 ]
+368 silly gunzTarPerm extractEntry scss/bootstrap-reboot.scss
+369 silly gunzTarPerm modified mode [ 'scss/bootstrap-reboot.scss', 420, 438 ]
+370 silly gunzTarPerm extractEntry scss/bootstrap.scss
+371 silly gunzTarPerm modified mode [ 'scss/bootstrap.scss', 420, 438 ]
+372 silly gunzTarPerm extractEntry scss/mixins/_list-group.scss
+373 silly gunzTarPerm modified mode [ 'scss/mixins/_list-group.scss', 420, 438 ]
+374 silly gunzTarPerm extractEntry scss/mixins/_alert.scss
+375 silly gunzTarPerm modified mode [ 'scss/mixins/_alert.scss', 420, 438 ]
+376 silly gunzTarPerm extractEntry scss/mixins/_badge.scss
+377 silly gunzTarPerm modified mode [ 'scss/mixins/_badge.scss', 420, 438 ]
+378 silly gunzTarPerm extractEntry scss/mixins/_border-radius.scss
+379 silly gunzTarPerm modified mode [ 'scss/mixins/_border-radius.scss', 420, 438 ]
+380 silly gunzTarPerm extractEntry scss/mixins/_breakpoints.scss
+381 silly gunzTarPerm modified mode [ 'scss/mixins/_breakpoints.scss', 420, 438 ]
+382 silly gunzTarPerm extractEntry scss/mixins/_buttons.scss
+383 silly gunzTarPerm modified mode [ 'scss/mixins/_buttons.scss', 420, 438 ]
+384 silly gunzTarPerm extractEntry scss/mixins/_cards.scss
+385 silly gunzTarPerm modified mode [ 'scss/mixins/_cards.scss', 420, 438 ]
+386 silly gunzTarPerm extractEntry scss/mixins/_clearfix.scss
+387 silly gunzTarPerm modified mode [ 'scss/mixins/_clearfix.scss', 420, 438 ]
+388 silly gunzTarPerm extractEntry scss/mixins/_float.scss
+389 silly gunzTarPerm modified mode [ 'scss/mixins/_float.scss', 420, 438 ]
+390 silly gunzTarPerm extractEntry scss/mixins/_forms.scss
+391 silly gunzTarPerm modified mode [ 'scss/mixins/_forms.scss', 420, 438 ]
+392 silly gunzTarPerm extractEntry scss/mixins/_gradients.scss
+393 silly gunzTarPerm modified mode [ 'scss/mixins/_gradients.scss', 420, 438 ]
+394 silly gunzTarPerm extractEntry scss/mixins/_grid-framework.scss
+395 silly gunzTarPerm modified mode [ 'scss/mixins/_grid-framework.scss', 420, 438 ]
+396 silly gunzTarPerm extractEntry scss/mixins/_grid.scss
+397 silly gunzTarPerm modified mode [ 'scss/mixins/_grid.scss', 420, 438 ]
+398 silly gunzTarPerm extractEntry scss/mixins/_hover.scss
+399 silly gunzTarPerm modified mode [ 'scss/mixins/_hover.scss', 420, 438 ]
+400 silly gunzTarPerm extractEntry scss/mixins/_image.scss
+401 silly gunzTarPerm modified mode [ 'scss/mixins/_image.scss', 420, 438 ]
+402 silly gunzTarPerm extractEntry scss/mixins/_background-variant.scss
+403 silly gunzTarPerm modified mode [ 'scss/mixins/_background-variant.scss', 420, 438 ]
+404 silly gunzTarPerm extractEntry scss/mixins/_lists.scss
+405 silly gunzTarPerm modified mode [ 'scss/mixins/_lists.scss', 420, 438 ]
+406 silly gunzTarPerm extractEntry scss/mixins/_nav-divider.scss
+407 silly gunzTarPerm modified mode [ 'scss/mixins/_nav-divider.scss', 420, 438 ]
+408 silly gunzTarPerm extractEntry scss/mixins/_navbar-align.scss
+409 silly gunzTarPerm modified mode [ 'scss/mixins/_navbar-align.scss', 420, 438 ]
+410 silly gunzTarPerm extractEntry scss/mixins/_pagination.scss
+411 silly gunzTarPerm modified mode [ 'scss/mixins/_pagination.scss', 420, 438 ]
+412 silly gunzTarPerm extractEntry scss/mixins/_reset-text.scss
+413 silly gunzTarPerm modified mode [ 'scss/mixins/_reset-text.scss', 420, 438 ]
+414 silly gunzTarPerm extractEntry scss/mixins/_resize.scss
+415 silly gunzTarPerm modified mode [ 'scss/mixins/_resize.scss', 420, 438 ]
+416 silly gunzTarPerm extractEntry scss/mixins/_screen-reader.scss
+417 silly gunzTarPerm modified mode [ 'scss/mixins/_screen-reader.scss', 420, 438 ]
+418 silly gunzTarPerm extractEntry scss/mixins/_size.scss
+419 silly gunzTarPerm modified mode [ 'scss/mixins/_size.scss', 420, 438 ]
+420 silly gunzTarPerm extractEntry scss/mixins/_table-row.scss
+421 silly gunzTarPerm modified mode [ 'scss/mixins/_table-row.scss', 420, 438 ]
+422 silly gunzTarPerm extractEntry scss/mixins/_text-emphasis.scss
+423 silly gunzTarPerm modified mode [ 'scss/mixins/_text-emphasis.scss', 420, 438 ]
+424 silly gunzTarPerm extractEntry scss/mixins/_text-hide.scss
+425 silly gunzTarPerm modified mode [ 'scss/mixins/_text-hide.scss', 420, 438 ]
+426 silly gunzTarPerm extractEntry scss/mixins/_text-truncate.scss
+427 silly gunzTarPerm modified mode [ 'scss/mixins/_text-truncate.scss', 420, 438 ]
+428 silly gunzTarPerm extractEntry scss/mixins/_transforms.scss
+429 silly gunzTarPerm modified mode [ 'scss/mixins/_transforms.scss', 420, 438 ]
+430 silly gunzTarPerm extractEntry scss/mixins/_visibility.scss
+431 silly gunzTarPerm modified mode [ 'scss/mixins/_visibility.scss', 420, 438 ]
+432 silly gunzTarPerm extractEntry scss/utilities/_float.scss
+433 silly gunzTarPerm modified mode [ 'scss/utilities/_float.scss', 420, 438 ]
+434 silly gunzTarPerm extractEntry scss/utilities/_align.scss
+435 silly gunzTarPerm modified mode [ 'scss/utilities/_align.scss', 420, 438 ]
+436 silly gunzTarPerm extractEntry scss/utilities/_borders.scss
+437 silly gunzTarPerm modified mode [ 'scss/utilities/_borders.scss', 420, 438 ]
+438 silly gunzTarPerm extractEntry scss/utilities/_clearfix.scss
+439 silly gunzTarPerm modified mode [ 'scss/utilities/_clearfix.scss', 420, 438 ]
+440 silly gunzTarPerm extractEntry scss/utilities/_display.scss
+441 silly gunzTarPerm modified mode [ 'scss/utilities/_display.scss', 420, 438 ]
+442 silly gunzTarPerm extractEntry scss/utilities/_flex.scss
+443 silly gunzTarPerm modified mode [ 'scss/utilities/_flex.scss', 420, 438 ]
+444 silly gunzTarPerm extractEntry scss/utilities/_background.scss
+445 silly gunzTarPerm modified mode [ 'scss/utilities/_background.scss', 420, 438 ]
+446 silly gunzTarPerm extractEntry scss/utilities/_position.scss
+447 silly gunzTarPerm modified mode [ 'scss/utilities/_position.scss', 420, 438 ]
+448 silly gunzTarPerm extractEntry scss/utilities/_screenreaders.scss
+449 silly gunzTarPerm modified mode [ 'scss/utilities/_screenreaders.scss', 420, 438 ]
+450 silly gunzTarPerm extractEntry scss/utilities/_sizing.scss
+451 silly gunzTarPerm modified mode [ 'scss/utilities/_sizing.scss', 420, 438 ]
+452 silly gunzTarPerm extractEntry scss/utilities/_spacing.scss
+453 silly gunzTarPerm modified mode [ 'scss/utilities/_spacing.scss', 420, 438 ]
+454 silly gunzTarPerm extractEntry scss/utilities/_text.scss
+455 silly gunzTarPerm modified mode [ 'scss/utilities/_text.scss', 420, 438 ]
+456 silly gunzTarPerm extractEntry scss/utilities/_visibility.scss
+457 silly gunzTarPerm modified mode [ 'scss/utilities/_visibility.scss', 420, 438 ]
+458 silly gentlyRm C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064\node_modules is being purged
+459 verbose gentlyRm don't care about contents; nuking C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064\node_modules
+460 silly doParallel preinstall 1
+461 silly preinstall bootstrap@4.0.0-alpha.6 C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064
+462 info lifecycle bootstrap@4.0.0-alpha.6~preinstall: bootstrap@4.0.0-alpha.6
+463 silly lifecycle bootstrap@4.0.0-alpha.6~preinstall: no script for preinstall, continuing
+464 silly doReverseSerial remove 1
+465 silly remove C:\Users\soumb\Documents\GitHub\Playaa\node_modules\bootstrap
+466 verbose unbuild node_modules\bootstrap
+467 info lifecycle bootstrap@4.0.0-alpha.6~preuninstall: bootstrap@4.0.0-alpha.6
+468 silly lifecycle bootstrap@4.0.0-alpha.6~preuninstall: no script for preuninstall, continuing
+469 info lifecycle bootstrap@4.0.0-alpha.6~uninstall: bootstrap@4.0.0-alpha.6
+470 silly lifecycle bootstrap@4.0.0-alpha.6~uninstall: no script for uninstall, continuing
+471 verbose unbuild rmStuff bootstrap@4.0.0-alpha.6 from C:\Users\soumb\Documents\GitHub\Playaa\node_modules
+472 info lifecycle bootstrap@4.0.0-alpha.6~postuninstall: bootstrap@4.0.0-alpha.6
+473 silly lifecycle bootstrap@4.0.0-alpha.6~postuninstall: no script for postuninstall, continuing
+474 silly gentlyRm C:\Users\soumb\Documents\GitHub\Playaa\node_modules\bootstrap is being purged from base C:\Users\soumb\Documents\GitHub\Playaa
+475 verbose gentlyRm don't care about contents; nuking C:\Users\soumb\Documents\GitHub\Playaa\node_modules\bootstrap
+476 silly vacuum-fs purging C:\Users\soumb\Documents\GitHub\Playaa\node_modules\bootstrap
+477 silly vacuum-fs quitting because other entries in C:\Users\soumb\Documents\GitHub\Playaa\node_modules
+478 silly doSerial move 0
+479 silly doSerial finalize 1
+480 silly finalize C:\Users\soumb\Documents\GitHub\Playaa\node_modules\bootstrap
+481 verbose unlock done using C:\Users\soumb\AppData\Roaming\npm-cache\_locks\staging-25f4e77628d1c7a4.lock for C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging
+482 silly rollbackFailedOptional Starting
+483 silly rollbackFailedOptional Finishing
+484 silly runTopLevelLifecycles Finishing
+485 silly install printInstalled
+486 warn playaa@0.0.1 No repository field.
+487 verbose If you need help, you may report this error at:
+487 verbose     <https://github.com/npm/npm/issues>
+488 warn playaa@0.0.1 No license field.
+489 verbose If you need help, you may report this error at:
+489 verbose     <https://github.com/npm/npm/issues>
+490 verbose stack Error
+490 verbose stack     at destStatted (C:\Program Files\nodejs\node_modules\npm\lib\install\action\finalize.js:25:7)
+490 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+490 verbose stack     at FSReqWrap.oncomplete (fs.js:111:15)
+490 verbose stack
+490 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064' -> 'C:\Users\soumb\Documents\GitHub\Playaa\node_modules\bootstrap'
+491 verbose cwd C:\Users\soumb\Documents\GitHub\Playaa
+492 error Windows_NT 10.0.14393
+493 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bootstrap@4.0.0-alpha.6"
+494 error node v7.3.0
+495 error npm  v3.10.10
+496 error path C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064
+497 error code EPERM
+498 error errno -4048
+499 error syscall rename
+500 error Error
+500 error     at destStatted (C:\Program Files\nodejs\node_modules\npm\lib\install\action\finalize.js:25:7)
+500 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+500 error     at FSReqWrap.oncomplete (fs.js:111:15)
+500 error
+500 error Error: EPERM: operation not permitted, rename 'C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064' -> 'C:\Users\soumb\Documents\GitHub\Playaa\node_modules\bootstrap'
+500 error  { Error
+500 error     at destStatted (C:\Program Files\nodejs\node_modules\npm\lib\install\action\finalize.js:25:7)
+500 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+500 error     at FSReqWrap.oncomplete (fs.js:111:15)
+500 error
+500 error Error: EPERM: operation not permitted, rename 'C:\Users\soumb\Documents\GitHub\Playaa\node_modules\.staging\bootstrap-4645f064' -> 'C:\Users\soumb\Documents\GitHub\Playaa\node_modules\bootstrap' parent: 'playaa' }
+501 error Please try running this command again as root/Administrator.
+502 verbose exit [ -4048, true ]
