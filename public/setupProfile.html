@@ -7,24 +7,53 @@
 
 <body>
 
-  <form>
+  <form id="user-info">
     <div class="form-group row">
-      <label for="inputGoal" class="col-2 col-form-label">Goals</label>
-        <textarea class="form-control" rows="4" id="inputGoal"></textarea>
+      <label for="inputFirstName" class="col-2 col-form-label"> First Name: </label>
+        <input class="form-control" rows="4" id="inputFirstName"></input>
     </div>
     <div class="form-group row">
+      <label for="inputLastName" class="col-2 col-form-label"> Last Name: </label>
+        <input class="form-control" rows="4" id="inputLastName"></input>
+    </div>
+    <div class="form-group row">
+      <p> The CDC recommends that adults, 18-35 get 2h 30 minutes of moderate-intensity aerobic activity per week, and 2 or more days a week
+      that work all majors muscle groups. </p>
+      <label for="inputGoal" class="col-2 col-form-label"> What's your goal ????</label>
+        <textarea class="form-control" rows="4" id="inputGoal"></textarea>
+    </div>
+    <div class="form-group">
+      <button type="button" class="btn btn-primary"> Save </button>
+    </div>
+  </form>
+
+  <form id="interest-choice">
+    <div class="form-group">
       <div class="dropdown">
         <button type="button" class="btn btn-primary"> Interests </button>
         <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <span class="sr-only"> List of Interests </span>
         </button>
-        <div class="dropdown-menu form-check" >
-            <label class="form-check-label">
-              <input class="form-check-input dropdown-item" type="checkbox" value=""> Soccer
-            </label>
+        <div class="dropdown-menu" >
+          <a href="#" class="small" data-value="option4" tabIndex="-1">
+            <input type="checkbox"> Soccer
+          </a>
+            <input type="checkbox" class="dropdown-item" value="option2"> Soccer
         </div>
       </div>
     <div>
+      <div class="form-group">
+        <button type="button" class="btn btn-primary"> Save </button>
+      </div>
+  </form>
+
+  <form id="Schedule-form">
+    <div class="form-group row">
+
+    <div>
+    <div class="form-group">
+      <button type="button" class="btn btn-primary"> Save </button>
+    </div>
   </form>
 
     <script>
