@@ -4,11 +4,13 @@
   "dependencies": {
     "ejs": "latest",
     "aws-sdk": "latest",
-    "express": "latest",
-    "body-parser": "latest",
-    "pg": "6.1.5"
+    "express": "^4.15.2",
+    "body-parser": "^1.17.1",
+    "pg": "6.1.5",
+    "socket.io": "^1.7.2",
+    "pug": "^2.0.0-beta9"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   }
 }
